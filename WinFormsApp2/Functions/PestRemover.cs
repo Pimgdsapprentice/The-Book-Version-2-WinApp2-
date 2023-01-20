@@ -9,10 +9,6 @@ namespace WinFormsApp2.Functions
 {
     public class PestRemover
     {
-
-
-
-
         public string Debug_Out_SimpleObj(object obj)
         {
             string output = string.Empty;

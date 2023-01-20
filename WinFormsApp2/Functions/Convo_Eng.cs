@@ -12,6 +12,8 @@ namespace WinFormsApp2.Functions
 
     public class Convo_Eng
     {
+
+        /*
         public string Con_Debug_CTE(Convo_Topic_Element cte)
         {
             foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(cte))
@@ -22,6 +24,7 @@ namespace WinFormsApp2.Functions
             }
             return "a";
         }
+        */
 
     }
 }

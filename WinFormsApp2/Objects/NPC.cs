@@ -11,7 +11,7 @@ namespace WinFormsApp2.Objects
     {
         public Dictionary<int, Trait> Trait_Dict = new Dictionary<int, Trait>();
         public Dictionary<int, Memory> NPC_PhBk = new Dictionary<int, Memory>();
-
+        ///public Dictionary<int, ConversationController> NPC_ConvoDict = new Dictionary<int, ConversationController>();
         public NPC(int id, string name) : base(id, name) { }
 
     }

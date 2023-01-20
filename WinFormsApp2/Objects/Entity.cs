@@ -18,6 +18,19 @@ namespace WinFormsApp2
 
     }
 
+    public class WeightedEntity : Entity
+    {
+        public int Weight { get; set; }
+        public WeightedEntity(int id, string name, int weight) : base(id, name)
+        {
+            Weight = weight;
+
+        }
+    }
+
+
+    /*
+
     public class TypeEntity : Entity
     {
         public String B_Type { get; set; }
@@ -26,18 +39,19 @@ namespace WinFormsApp2
 
         }
     }
-
+    */
+    /*
     public class ProcessEntity : Entity
     {
-        public Array EntityProcess { get; set; }
-        public ProcessEntity(int id, string name, Array entityProcess) : base(id, name)
+        public int EntityProcessCurrent { get; set; }
+        public ProcessEntity(int id, string name, int entityProcessCurrent) : base(id, name)
         {
-            EntityProcess = entityProcess;
+            EntityProcessCurrent = entityProcessCurrent;
 
         }
     }
-
-
+    */
+    
     public class S_Entity
     {
         public string ID { get; set; }
@@ -50,7 +64,7 @@ namespace WinFormsApp2
         }
 
     }
-
+    
     public class S_TypeEntity : S_Entity
     {
         public String B_Type { get; set; }
@@ -60,9 +74,4 @@ namespace WinFormsApp2
 
         }
     }
-
-
-
-
-
 }
